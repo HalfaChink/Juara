@@ -1259,3 +1259,8 @@
   position:relative;
   display:flex;
 }
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
